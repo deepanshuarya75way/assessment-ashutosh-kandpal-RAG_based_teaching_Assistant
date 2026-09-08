@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Raw source media
+videos/
+audios/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Vector stores / generated indexes
+chroma/
+chroma_db/
+vectorstore/
+vector_db/
+faiss_index/
+
+# Logs
+*.log
